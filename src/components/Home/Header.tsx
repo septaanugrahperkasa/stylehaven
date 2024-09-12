@@ -8,6 +8,7 @@ import FeaturedFour from '/public/Featured4.webp';
 import HeaderImage from '/public/header.png';
 import { Button, buttonVariants } from '../ui/button';
 import Link from 'next/link';
+
 export default function Header() {
   return (
     <header className='header'>
@@ -18,9 +19,9 @@ export default function Header() {
             Industrial-Inspired Streetwear by StyleHaven
           </h1>
           <p className='header-main-helper-text'>
-            Anyone can outdo you, but no one can outshine your outfit when you're wearing our designs.
+            Anyone can outdo you, but no one can outshine your outfit when you&apos;re wearing our designs.
           </p>
-          <Link href='/'>
+          <Link href='/' passHref>
             <Button size='lg'>
               <ShoppingCart className='w-8' />
               Start Shopping
@@ -39,8 +40,8 @@ export default function Header() {
           <Image
             src={HeaderImage}
             alt='header'
-            height='650'
-            width='650'
+            height={650}
+            width={650}
             className='header-image'
           />
         </div>
