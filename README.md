@@ -1,4 +1,4 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/saadfrhan/fullstack-nextjs-marketplace)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/septaanugrahperkasa/stylehaven)
 
 # Fullstack Next.js Marketplace Application
 
@@ -16,8 +16,8 @@
 ## Running Locally
 
 ```bash
-  git clone https://github.com/saadfrhan/fullstack-nextjs-marketplace.git
-  cd fullstack-nextjs-marketplace
+  git clone https://github.com/septaanugrahperkasa/stylehaven.git
+  cd stylehaven
   pnpm install
   pnpm dev
 ```
